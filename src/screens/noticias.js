@@ -1,10 +1,6 @@
-import { useNavigation } from "@react-navigation/native";
 import { View, Text, StyleSheet, Button } from "react-native";
 
 export const NoticiasScreen = () => {
-
-    const navigate = useNavigation();
-
 
     return (
         <View style={styles.container}>

@@ -1,12 +1,13 @@
-import { View, Text, StyleSheet, Button} from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 export const HomeScreen = () => {
     const navigate = useNavigation();
 
     return (
         <View style={styles.container}>
-            <Text>Página Home</Text>
-            <Button title="CompraDetail" onPress={() => navigate.navigate('CompraDetail')} />
+            <Text>Página Compras</Text>
+            <Button title="Detalhes de uma compra" color='#490397'
+                onPress={() => navigate.navigate('CompraDetail')} />
 
         </View>
     );
